@@ -1,6 +1,8 @@
 name: Shell Commands 
-
-on: [pull_request]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   run-shell-command:
